@@ -15,10 +15,10 @@ const getMsg=(message)=>{
     return (
         <div>
             <h2>This is {parentName}</h2>
-            <Props_Child1 CName={parentName} />
-             <Props_Child2 CName={child2} CAge={age} /> 
-             <Props_Child1 sendMsg={getMsg}/>
-             <h3>Message from Child1: {msg}</h3>             
+            <Props_Child1 CName={parentName} />             
+            <Props_Child1 CName={parentName} sendMsg={getMsg} />
+             <h3>Message from Child1: {msg}</h3>    
+             <Props_Child2 CName={child2} CAge={age} />          
         </div>
     );
 }

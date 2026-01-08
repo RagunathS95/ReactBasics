@@ -5,6 +5,8 @@ function Head(){
     return(
         <div>
             <NavLink to="/Prop-Parent">Props Parent Component</NavLink>
+            <br/>
+            <NavLink to="/ContextParent">Context Parent Component</NavLink>
         </div>
     )
 }

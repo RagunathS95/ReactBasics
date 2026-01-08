@@ -5,6 +5,7 @@ import './App.css'
 import Props_Parent from './Props_Parent.jsx';
 import {Route, Routes} from 'react-router-dom';
 import Head from './Head.jsx';
+import ContextParent from './ContextParent.jsx';
 
 function App() {
   
@@ -13,7 +14,8 @@ function App() {
     <Head />
       
         <Routes>
-          <Route path="/Prop-Parent" element={<Props_Parent />} />
+          <Route path="/Prop-Parent" element={<Props_Parent />} />          
+          <Route path="/ContextParent" element={<ContextParent />} />
         </Routes>
       
     </>
