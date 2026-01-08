@@ -7,6 +7,8 @@ function Head(){
             <NavLink to="/Prop-Parent">Props Parent Component</NavLink>
             <br/>
             <NavLink to="/ContextParent">Context Parent Component</NavLink>
+            <br />
+            <NavLink to="/ListsMapData">Lists and Map Data Component</NavLink>
         </div>
     )
 }
