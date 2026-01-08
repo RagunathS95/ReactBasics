@@ -4,7 +4,7 @@ import ContextChild from './ContextChild.jsx';
 const user = createContext();
 export {user};
 function ContextParent() {
-    const [data,setData]=useState("Hello from Parent using Context API");
+    const [data,setData]=useState("Helloo from Parent using Context API");
         
     return (
         <div>
